@@ -1,0 +1,15 @@
+roll = input("Enter the roll number:");
+name = input("Enter the name of student:", "s");
+phy = input("Enter the mark of Physics:");
+math = input("Enter the mark of Mathematics:");
+chem = input("Enter the mark of Chemistry:");
+fprintf("************************************************************\n");
+fprintf("                     Delhi Public School                    \n");
+fprintf("************************************************************\n");
+fprintf("Student Name: %s                Roll Numner: %d\n", name, roll);
+fprintf("____________________________________________________________\n");
+fprintf("Mathematics %40d\n", math);
+fprintf("Physics     %40d\n", phy); 
+fprintf("Chemistry   %40d\n", chem);
+fprintf("____________________________________________________________\n");
+fprintf("Total       %40d\n", math+phy+chem);
